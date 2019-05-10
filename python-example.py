@@ -50,7 +50,7 @@ def test_example(driver):
                 time.sleep(2)
                 driver.find_element_by_css_selector('input[value="В корзину"]').click()
                 time.sleep(2)
-                driver.find_element_by_css_selector(time.sleep(2)'input[value="Оплатить"]').click()
+                driver.find_element_by_css_selector('input[value="Оплатить"]').click()
                 time.sleep(2)
                 driver.find_element_by_css_selector('.popup-body [name=email]').send_keys(email)
                 driver.find_element_by_class_name('g-form-checkbox').click()
