@@ -50,7 +50,7 @@ def test_example(driver):
                 time.sleep(2)
                 driver.find_element_by_css_selector('input[value="В корзину"]').click()
                 time.sleep(2)
-                driver.find_element_by_css_selector('input[value="Оплатить"]').click()
+                driver.find_element_by_css_selector(time.sleep(2)'input[value="Оплатить"]').click()
                 time.sleep(2)
                 driver.find_element_by_css_selector('.popup-body [name=email]').send_keys(email)
                 driver.find_element_by_class_name('g-form-checkbox').click()
@@ -64,6 +64,7 @@ def test_example(driver):
                 driver.find_element_by_id('service_confirm_payment_button').click()
                 time.sleep(3)
             else:
+                table_rows = []
                 show_star_page(driver)
 
     WebDriverWait(driver, 5).until(EC.title_is("iShop - Оплата"))
@@ -79,13 +80,27 @@ def show_star_page(driver):
 
     driver.get("https://booking.uz.gov.ua/ru/")
 
-    driver.find_element_by_name("from-title").send_keys("Киев")
+    driver.find_element_by_name("from-title").send_keys(town_from)
     time.sleep(2)
-    driver.find_element_by_xpath('//li[text()="' + town_from + '"]').click()
+    element = driver.find_elements_by_xpath('//li[text()="' + town_from + '"]')
+    if len(element) and element[0].is_displayed() and element[0].is_enabled():
+        element[0].click()
+    else:
+        show_star_page(driver)
+    element = driver.find_elements_by_xpath('//*[@aria-selected="true"][text()="'+town_from+'"]')
+    if len(element) == 0:
+        show_star_page(driver)
 
-    driver.find_element_by_name("to-title").send_keys("Знаменка-Пасс.")
+    driver.find_element_by_name("to-title").send_keys(town_to)
     time.sleep(1)
-    driver.find_element_by_xpath('//li[text()="' + town_to + '"]').click()
+    element = driver.find_elements_by_xpath('//li[text()="' + town_to + '"]')
+    if len(element) and element[0].is_displayed() and element[0].is_enabled():
+        element[0].click()
+    else:
+        show_star_page(driver)
+    element = driver.find_elements_by_xpath('//*[@aria-selected="true"][text()="'+town_to+'"]')
+    if len(element) == 0:
+        show_star_page(driver)
 
     date_selector = '//a[text()='+day+']'
     driver.find_element_by_name('date-hover').click()

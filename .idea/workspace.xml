@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b4c9a96-b6ca-46fc-9025-21943a54e7da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/selenium_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-example.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python-example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+            <state relative-caret-position="810">
+              <caret line="54" column="70" lean-forward="true" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -36,6 +34,12 @@
       <find>find_element_</find>
       <find>show_star_page</find>
       <find>find_elements</find>
+      <find>table_rows</find>
+      <find>show_star_page()</find>
+      <find>find_elements_by_css_selector</find>
+      <find>town_from</find>
+      <find>@</find>
+      <find>xpath</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -49,16 +53,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
+    <option name="x" value="1311" />
     <option name="y" value="23" />
-    <option name="width" value="1235" />
-    <option name="height" value="1001" />
+    <option name="width" value="1249" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,7 +75,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,47 +166,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_python-example_py - 2019.05.09 at 22h 21m 41s.xml">
+    <history-entry file="pytest_in_python-example_py - 2019.05.10 at 14h 39m 46s.xml">
       <configuration name="pytest in python-example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_python-example_py - 2019.05.09 at 22h 21m 59s.xml">
+    <history-entry file="pytest_in_python-example_py - 2019.05.10 at 14h 40m 33s.xml">
       <configuration name="pytest in python-example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_python-example_py - 2019.05.09 at 22h 22m 18s.xml">
+    <history-entry file="pytest_in_python-example_py - 2019.05.10 at 14h 41m 02s.xml">
       <configuration name="pytest in python-example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_python-example_py - 2019.05.09 at 22h 22m 53s.xml">
+    <history-entry file="pytest_in_python-example_py - 2019.05.10 at 14h 41m 28s.xml">
       <configuration name="pytest in python-example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_python-example_py - 2019.05.09 at 22h 23m 12s.xml">
+    <history-entry file="pytest_in_python-example_py - 2019.05.10 at 14h 41m 35s.xml">
       <configuration name="pytest in python-example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_python-example_py - 2019.05.09 at 22h 23m 36s.xml">
+    <history-entry file="pytest_in_python-example_py - 2019.05.10 at 14h 42m 12s.xml">
       <configuration name="pytest in python-example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_python-example_py - 2019.05.09 at 22h 23m 57s.xml">
+    <history-entry file="pytest_in_python-example_py - 2019.05.10 at 14h 42m 40s.xml">
       <configuration name="pytest in python-example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_python-example_py - 2019.05.09 at 22h 25m 05s.xml">
+    <history-entry file="pytest_in_python-example_py - 2019.05.10 at 14h 43m 02s.xml">
       <configuration name="pytest in python-example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_python-example_py - 2019.05.09 at 22h 26m 20s.xml">
+    <history-entry file="pytest_in_python-example_py - 2019.05.10 at 14h 43m 29s.xml">
       <configuration name="pytest in python-example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_python-example_py - 2019.05.09 at 22h 27m 25s.xml">
+    <history-entry file="pytest_in_python-example_py - 2019.05.10 at 14h 43m 30s.xml">
       <configuration name="pytest in python-example.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="23" width="1235" height="1001" extended-state="0" />
+    <frame x="1311" y="23" width="1249" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958813" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24674267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32893288" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32830188" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -219,8 +223,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/python-example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        <state relative-caret-position="810">
+          <caret line="54" column="70" lean-forward="true" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
